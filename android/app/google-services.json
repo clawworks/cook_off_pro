@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "214923502000",
+    "project_id": "cookoffpro",
+    "storage_bucket": "cookoffpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214923502000:android:184f94072566343f777675",
+        "android_client_info": {
+          "package_name": "dev.clawworks.cookOffPro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoT8kG2MY4Xq5pPy4-620hnRT3JD4ZXmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:214923502000:android:5095f4293b1f3694777675",
+        "android_client_info": {
+          "package_name": "dev.clawworks.cook_off_pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoT8kG2MY4Xq5pPy4-620hnRT3JD4ZXmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
