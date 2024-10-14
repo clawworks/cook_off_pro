@@ -3,12 +3,14 @@ import 'package:cook_off_pro/go_router_refresh_stream.dart';
 import 'package:cook_off_pro/home_page.dart';
 import 'package:cook_off_pro/oops_page.dart';
 import 'package:cook_off_pro/settings_page.dart';
+import 'package:cook_off_pro/sign_up_page.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 enum AppRoute {
   home,
+  signUp,
   settings,
   settingsRecoil,
   history,
@@ -43,6 +45,13 @@ final pRouter = Provider<GoRouter>((ref) {
           );
         },
         routes: [
+          GoRoute(
+            path: 'signUp',
+            name: AppRoute.signUp.name,
+            builder: (context, state) {
+              return const SignUpPage();
+            },
+          ),
           GoRoute(
             path: 'settings',
             name: AppRoute.settings.name,
